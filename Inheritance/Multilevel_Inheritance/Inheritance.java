@@ -1,20 +1,36 @@
+
 public class Inheritance {
     public static void main(String[] args) {
 
-        boxPrice box = new boxPrice(10, 30, 200);
-        System.out.println(box.l);
-        System.out.println(box.h);
-        System.out.println(box.w);
-        System.out.println(box.weight);
-        System.out.println(box.cost);
+        // boxPrice box = new boxPrice(10, 30, 200);
+        // System.out.println(box.l);
+        // System.out.println(box.h);
+        // System.out.println(box.w);
+        // System.out.println(box.weight);
+        // System.out.println(box.cost);
+
+        // 1:
+        // Box box = new Box();
+        // System.out.println(box.h);
+
+        // 2: passing object
+        // Box b = new Box();
+        // b.h = 20;
+        // b.l = 25;
+        // b.w = 34;
+        // Box box = new Box(b);
+        // System.out.println(box.h);
+        // System.out.println(b.h);
+
+        // boxWeight w = new boxWeight(1, 2, 3, 4);
+        boxPrice price = new boxPrice(1, 2, 3, 4, 5);
+        System.out.println(price.w);
 
     }
 }
 
 class Box {
-    double l;
-    double w;
-    double h;
+    double l, w, h;
     double weight = 99;
 
     Box() {
@@ -34,6 +50,7 @@ class Box {
         this.l = l;
         this.h = h;
         this.w = w;
+        System.out.println("Inside Box");
     }
 
     Box(Box old) {
@@ -50,14 +67,16 @@ class Box {
 class boxWeight extends Box {
     double weight;
 
+    public boxWeight() {
+        this.weight = -1;
+    }
+
     boxWeight(double l, double w, double h, double weight) {
         super(l, h, w);
         this.weight = weight;
-        System.out.println(super.weight);
-    }
-
-    public boxWeight() {
-        this.weight = -1;
+        System.out.println("Inside Box weight");
+        // System.out.println(super.weight);
+        // System.out.println(weight);
     }
 
     public boxWeight(boxPrice other) {
@@ -87,6 +106,7 @@ class boxPrice extends boxWeight {
     boxPrice(double l, double h, double w, double weight, double cost) {
         super(l, h, w, weight);
         this.cost = cost;
+        System.out.println("Inside boxPrice");
     }
 
     boxPrice(double side, double weight, double cost) {

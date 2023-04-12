@@ -22,4 +22,4 @@ In C++ we have pointers by which we can resolve ambiguity .
 we were able to resolve diamond Problem .
 
 Because java does not support Pointer we don't have
- something called "Multiple Inheritance".
+something called "Multiple Inheritance".
