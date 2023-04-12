@@ -1,0 +1,12 @@
+# Abstraction 
+|
+----> Hiding unnecessary details and showing valuable information
+
+example ->      
+            if you are running a Car  you just need a key to start the car 
+and run the car but the internal implementation of the car like how the engine
+works, how the mechanics of the whole car is working , how the petrol is going , 
+how the breaks are working that are important but they are not necessary for 
+you to know to start a car. 
+
+This is Abstraction  > Hiding the important but unnecessary Data
