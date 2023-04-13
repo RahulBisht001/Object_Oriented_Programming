@@ -23,15 +23,17 @@ public class Inheritance {
         // System.out.println(b.h);
 
         // boxWeight w = new boxWeight(1, 2, 3, 4);
-        boxPrice price = new boxPrice(1, 2, 3, 4, 5);
-        System.out.println(price.w);
+        // boxPrice price = new boxPrice(1, 2, 3, 4, 5);
+        // System.out.println(price.w);
+
+        // boxWeight b = new boxWeight(1, 2, 3, 4);
 
     }
 }
 
 class Box {
     double l, w, h;
-    double weight = 99;
+    // double weight = 99;
 
     Box() {
         this.l = -1;
@@ -40,7 +42,6 @@ class Box {
     }
 
     Box(double side) {
-        // super();
         this.l = side;
         this.h = side;
         this.w = side;
@@ -71,7 +72,7 @@ class boxWeight extends Box {
         this.weight = -1;
     }
 
-    boxWeight(double l, double w, double h, double weight) {
+    public boxWeight(double l, double w, double h, double weight) {
         super(l, h, w);
         this.weight = weight;
         System.out.println("Inside Box weight");

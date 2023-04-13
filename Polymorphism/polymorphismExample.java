@@ -81,6 +81,6 @@ class Triangle extends Shapes {
 
 class Square extends Shapes {
     void area() {
-        System.out.println("Area : side *side");
+        System.out.println("Area : side * side");
     }
 }

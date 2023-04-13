@@ -1,11 +1,11 @@
-                  ? what
-                  and   Why
-
-
-                Poly-morphism
-                /     \
-               /       \
-            Many        Ways to represent
+.                  ? what
+.                 and   Why
+.
+.
+.                Poly-morphism
+.                /     \
+.               /       \
+.            Many        Ways to represent
 
 $ Types of Polymorphism
 
