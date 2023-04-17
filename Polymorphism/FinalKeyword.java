@@ -1,6 +1,13 @@
 public class FinalKeyword {
     public static void main(String[] args) {
 
+        Shapes c = new Circle();
+        c.area();
+        Shapes t = new Triangle();
+        t.area();
+
+        // Circle s = new Shapes();
+        // s.area();
     }
 }
 /*
@@ -28,6 +35,8 @@ class Circle extends Shapes {
 }
 
 class Triangle extends Shapes {
+
+    @Override
     void area() {
         System.out.println("Area : 0.5 * height * base");
     }
