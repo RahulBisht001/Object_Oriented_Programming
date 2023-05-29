@@ -1,0 +1,8 @@
+Types of Error
+1. Logical Error
+2. Syntax Error
+3. RunTime Error
+
+
+we will discuss about Run Time Error
+
