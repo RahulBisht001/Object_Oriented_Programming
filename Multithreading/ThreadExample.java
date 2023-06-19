@@ -3,12 +3,12 @@ public class ThreadExample {
 
         // A3 objA = new A3();
         // objA.start();
-        A obA = new A();
-        B obB = new B();
-        C obC = new C();
-        obA.start();
-        obB.start();
-        obC.start();
+        // A obA = new A();
+        // B obB = new B();
+        // C obC = new C();
+        // obA.start();
+        // obB.start();
+        // obC.start();
     }
 }
 

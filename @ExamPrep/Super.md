@@ -93,6 +93,7 @@ class Animal {
 }
 
 class Dog extends Animal {
+
     public void eat() {
         super.eat(); // Call parent class's eat() method
         System.out.println("Dog is eating");
