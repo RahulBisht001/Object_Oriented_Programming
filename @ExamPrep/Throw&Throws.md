@@ -35,6 +35,7 @@ the error message will be printed.
 
 
 2. `throws` keyword:
+
 The `throws` keyword is used in method signatures to indicate that a particular
 method may throw one or more types of exceptions. It specifies that the responsibility
 of handling the exception is delegated to the caller of the method. The caller can 

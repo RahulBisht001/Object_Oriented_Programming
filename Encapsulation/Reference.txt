@@ -1,4 +1,0 @@
-# Encapsulation
-|
-----> Wrapping up of the implementation of the data members and methods 
-in a class
